@@ -1,0 +1,281 @@
+html {
+  width: 100%;
+  background-color: #242424;
+  
+}
+
+* {
+  box-sizing: border-box;
+  
+}
+p,h1,h2,h3,h4,h4,h6,div,span {
+	font-family:PingFangSC-Regular,sans-serif,Microsoft JhengHei;	
+}
+
+p {
+  font-size: 16px;
+  font-family: sf pro text;
+}
+body{
+  background-color: #242424;
+}
+
+.container{
+  margin:0 auto;
+  margin-left: auto;
+  margin-right: auto; 
+  height: 100%;
+  background-color: #242424;
+  padding: 10px 10px;
+}
+.row{
+  width: 100%;
+  position: relative;
+  top:40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.logo{
+  
+  z-index: 2;
+  position: absolute;
+  top: -20px; 
+  left: 0px;
+  
+}
+
+.navbar{
+ 
+  margin-top: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  /* max-width: 1200px; */
+  z-index: 1;
+}
+
+.navbar_ul{
+  width: 100%;
+  list-style-type:none;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 0px;
+  margin: 0px 5px;
+}
+.nav-link {
+  color: #ffffff;
+  font-size: 22px;
+}
+.nav-link:hover{
+  color: #d59e48;
+}
+.top_banner1{
+  
+  /* background-size: auto; */
+  z-index: 0;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* 輪播icon */
+/* #banner2{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  margin:0 auto;
+} */
+#banner2{
+  overflow:hidden;
+ }
+ 
+.prev-icon {
+  background-image: url(../img/svg/svg/chevron-left.svg);
+  width:100px;
+  height: 100px;
+  color:rgba(0,0,0,1);
+  position: absolute;
+  top:50%;
+}
+.next-icon{
+  background-image: url(../img/svg/svg/chevron-right.svg);
+  width: 100px;
+  height: 100px;
+  color:rgba(0,0,0,1);
+  position: absolute;
+  top:50%;
+}
+/* 包所有內文部分 */
+.container2{
+  background-color:#242424;
+  padding-bottom:100px;
+  border:0px 0px;
+}
+
+/* 品牌故事 */
+.about {
+  padding:50px 0;
+  font-weight: bolder;  
+  text-align: center;
+}
+.about>p {
+  font-size:3rem;
+  color:white;
+}
+.content {
+  padding:0 50px;
+  max-width: 1200px;
+ 
+}
+
+/* 關於珍煮丹JENJUDAN */
+.story{
+  margin-top:2rem ;
+ }
+.story>span {
+  font-family: Sf pro display;
+  color:#a67d3e;
+  font-size:2.5rem;
+  font-weight: bolder; 
+  text-align: center;
+}
+/* 內文 */
+.story>p{
+  color:white;
+  font-size:1.3rem;
+  
+}
+/* 詳細資訊btn */
+.more{
+  margin-top:10px;
+  background-color:#786233;
+  border: none;
+  padding:10px 30px;
+  border-radius:30px;
+  font-size:1.5rem;
+  color:white;
+}
+
+@media screen and (max-width:350px){
+  
+  .next-icon{
+    position: absolute;
+    top:40%;
+    left: 5px;
+    right: 5px;
+    z-index: 1;
+  }
+  .prev-icon{
+    position: absolute;
+    top:40%;
+    left: 5px;
+    right: 5px;
+    z-index: 1;
+  }
+  .img_left{
+    width:100%;
+    height:100%;
+    }
+  .content{
+    padding: 0 10px;
+    }
+  .story>span{
+  font-size: 2rem;
+  }
+  .story>p{
+    font-size:1rem;
+ }
+
+  .top_banner1{
+    
+  background-size: auto;
+  z-index: 0;
+  position: absolute;
+  top:0px;
+  left:0px;
+  width: 100%;
+  height: 150px;
+  margin-left: 0px;
+  margin-right: 0px;
+  }
+  
+  .img_banner2{
+    width: 300px;
+    height: 150px;
+  }
+  .logo{
+    margin: 0px 0px 0px 5px;
+    width: 150px;
+    height: 60px;
+  }
+  #navigation{
+    z-index: 2;
+   }
+   .burger{
+     background-color: #242424;
+     margin-top: 50px;
+     display: inline-block;
+     z-index: 3;
+  }
+}
+
+@media screen and (max-width:769px){
+
+ 
+  .next-icon{
+    position: absolute;
+    top:40%;
+    left: 5px;
+    right: 5px;
+    z-index: 1;
+  }
+  .prev-icon{
+    position: absolute;
+    top:40%;
+    left: 5px;
+    right: 5px;
+    z-index: 1;
+  }
+  .img_left{
+    width:100%;
+    height:100%;
+    }
+
+  .about {
+    padding:30px 0;
+  }
+    
+  .content{
+    padding: 0 10px;
+    }
+  .story>span{
+  font-size: 2.3rem;
+  }
+  .story>p{
+    font-size:1.25rem;
+ }
+ .top_banner1{
+   height: 198px;
+   z-index:1 ;
+ }
+ 
+ .img_banner2{
+  width: 300px;
+  height: 300px;
+  background-image: url(../img/s/banner2.png);
+ }
+ #navigation{
+  z-index: 2;
+ }
+ .burger{
+   background-color: #242424;
+   margin-top: 50px;
+   display: inline-block;
+   z-index: 3;
+}
+
+
+}
